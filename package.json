@@ -1,0 +1,13 @@
+{
+    "name": "attendance-livewire-widget",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "build": "npx tailwindcss -i ./resources/css/app.css -o ./resources/css/app.css"
+    },
+    "dependencies": {
+        "tailwindcss": "^3.0",
+        "autoprefixer": "^10.4",
+        "postcss": "^8.4"
+    }
+}
