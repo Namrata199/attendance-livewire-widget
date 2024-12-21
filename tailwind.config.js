@@ -1,12 +1,21 @@
-const defaultTheme = require('tailwindcss/defaultTheme');
+import defaultTheme from 'tailwindcss/defaultTheme';
 
-module.exports = {
+/** @type {import('tailwindcss').Config} */
+export default {
     content: [
-        './resources/**/*.blade.php', // Main app views
-        './packages/namratalohani/attendance-livewire-widget/resources/**/*.blade.php', // Your package views
+        './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
+        './storage/framework/views/*.php',
+        './resources/**/*.blade.php',
+        './resources/**/*.js',
+        './resources/**/*.vue',
+        './packages/namratalohani/attendance-livewire-widget/resources/views/filament/widgets/**/*.blade.php',
+        './src/**/*.php',  
     ],
     theme: {
         extend: {
+            fontFamily: {
+                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+            },
             colors: {
                 green: {
                     500: '#22c55e',
