@@ -5,7 +5,9 @@ export default defineConfig({
     plugins: [
         laravel({
             input: [
-                'resources/css/app.css', 
+                'resources/css/app.css',
+                'resources/js/app.js',
+                'packages/namratalohani/attendance-livewire-widget/resources/css/filament/admin/theme.css',
             ],
             refresh: true,
         }),

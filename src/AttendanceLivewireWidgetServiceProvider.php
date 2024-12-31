@@ -35,6 +35,7 @@ class AttendanceLivewireWidgetServiceProvider extends ServiceProvider
         Filament::serving(function () {
             Filament::registerPanel(
                 Panel::make()
+                    ->viteTheme('packages.namratalohani.attendance-livewire-widget.resources/css/filament/admin/theme.css')
                     ->id('attendance')
                     ->path('admin')
                     ->widgets([
