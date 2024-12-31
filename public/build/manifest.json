@@ -1,7 +1,18 @@
 {
+  "packages/namratalohani/attendance-livewire-widget/resources/css/filament/admin/theme.css": {
+    "file": "assets/theme-DvldfQ0_.css",
+    "src": "packages/namratalohani/attendance-livewire-widget/resources/css/filament/admin/theme.css",
+    "isEntry": true
+  },
   "resources/css/app.css": {
-    "file": "assets/app-C6G_3qQV.css",
+    "file": "assets/app-CI5K0AU7.css",
     "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-Xaw6OIO1.js",
+    "name": "app",
+    "src": "resources/js/app.js",
     "isEntry": true
   }
 }
