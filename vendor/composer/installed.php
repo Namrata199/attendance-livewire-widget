@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'namratalohani/attendance-livewire-widget',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'fc0da3cbac9c9d53b1449cb6c847839107112bcc',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -87,7 +87,7 @@
         'doctrine/dbal' => array(
             'pretty_version' => '4.3.x-dev',
             'version' => '4.3.9999999.9999999-dev',
-            'reference' => '582633f611156340acb8893d0fc81d74a1621d36',
+            'reference' => '69d5e3437f94bdb87790b6261c44c43fa165e4ca',
             'type' => 'library',
             'install_path' => __DIR__ . '/../doctrine/dbal',
             'aliases' => array(),
@@ -134,7 +134,7 @@
         'egulias/email-validator' => array(
             'pretty_version' => '4.x-dev',
             'version' => '4.9999999.9999999.9999999-dev',
-            'reference' => '87db43e4ffecdf458016e8c1b6d4801e872654bc',
+            'reference' => 'dcf8f79c410bb3906c915136369465bebead5990',
             'type' => 'library',
             'install_path' => __DIR__ . '/../egulias/email-validator',
             'aliases' => array(),
@@ -484,7 +484,7 @@
         'laravel/framework' => array(
             'pretty_version' => '11.x-dev',
             'version' => '11.9999999.9999999.9999999-dev',
-            'reference' => '620f7176e6c452c3136829618f3ade2c3fa7798b',
+            'reference' => '16c01c2697c371a824b57504a0ed6d57782694cc',
             'type' => 'library',
             'install_path' => __DIR__ . '/../laravel/framework',
             'aliases' => array(),
@@ -493,7 +493,7 @@
         'laravel/prompts' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '7f6decdd7b51ce6c6a91e9cad06ef4b7a60c8512',
+            'reference' => '749395fcd5f8f7530fe1f00dfa84eb22c83d94ea',
             'type' => 'library',
             'install_path' => __DIR__ . '/../laravel/prompts',
             'aliases' => array(
@@ -513,7 +513,7 @@
         'league/commonmark' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '88365ec0a908702ae6dec328322d6666c9ceae0f',
+            'reference' => 'dfe07db97886facb6d9b93be98cb8ca26448e67f',
             'type' => 'library',
             'install_path' => __DIR__ . '/../league/commonmark',
             'aliases' => array(
@@ -573,7 +573,7 @@
         'league/uri' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'c01d87e3c17d4bb05b35432c1004f610da2e79ce',
+            'reference' => '6e5d49838d153ff956964d7d04833a6b4a9652c3',
             'type' => 'library',
             'install_path' => __DIR__ . '/../league/uri',
             'aliases' => array(
@@ -584,7 +584,7 @@
         'league/uri-interfaces' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '08cfc6c4f3d811584fb09c37e2849e6a7f9b0742',
+            'reference' => 'ffe0aa92f505bc233b134c52d2992c20b29824e4',
             'type' => 'library',
             'install_path' => __DIR__ . '/../league/uri-interfaces',
             'aliases' => array(
@@ -628,9 +628,9 @@
             ),
         ),
         'namratalohani/attendance-livewire-widget' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'fc0da3cbac9c9d53b1449cb6c847839107112bcc',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -639,7 +639,7 @@
         'nesbot/carbon' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '28fe8d627f0a644ffb0315d8c2b71a1dd219cf2d',
+            'reference' => 'da289f01aca5a6cc1cd1e63183623a7dbb4c5a3c',
             'type' => 'library',
             'install_path' => __DIR__ . '/../nesbot/carbon',
             'aliases' => array(
@@ -679,7 +679,7 @@
         'openspout/openspout' => array(
             'pretty_version' => '4.x-dev',
             'version' => '4.9999999.9999999.9999999-dev',
-            'reference' => '9a24573c3b57b9ec1f8799d2597538056aaa2e05',
+            'reference' => 'a64ebbdb6585577139017761259908b2e952a908',
             'type' => 'library',
             'install_path' => __DIR__ . '/../openspout/openspout',
             'aliases' => array(),
@@ -819,8 +819,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0|3.0',
-                1 => '3.0.0',
+                0 => '3.0.0',
+                1 => '1.0|2.0|3.0',
             ),
         ),
         'psr/simple-cache' => array(
@@ -883,9 +883,9 @@
             'dev_requirement' => false,
         ),
         'spatie/color' => array(
-            'pretty_version' => '1.6.2',
-            'version' => '1.6.2.0',
-            'reference' => 'b4fac074a9e5999dcca12cbfab0f7c73e2684d6d',
+            'pretty_version' => '1.7.0',
+            'version' => '1.7.0.0',
+            'reference' => '614f1e0674262c620db908998a11eacd16494835',
             'type' => 'library',
             'install_path' => __DIR__ . '/../spatie/color',
             'aliases' => array(),
@@ -901,9 +901,9 @@
             'dev_requirement' => false,
         ),
         'spatie/laravel-package-tools' => array(
-            'pretty_version' => '1.17.0',
-            'version' => '1.17.0.0',
-            'reference' => '9ab30fd24f677e5aa370ea4cf6b41c517d16cf85',
+            'pretty_version' => '1.18.0',
+            'version' => '1.18.0.0',
+            'reference' => '8332205b90d17164913244f4a8e13ab7e6761d29',
             'type' => 'library',
             'install_path' => __DIR__ . '/../spatie/laravel-package-tools',
             'aliases' => array(),
@@ -991,7 +991,7 @@
         'symfony/finder' => array(
             'pretty_version' => '7.3.x-dev',
             'version' => '7.3.9999999.9999999-dev',
-            'reference' => '86dd50b11455bdeee991048f19efe26a18d6081b',
+            'reference' => 'ec2344cf77a48253bbca6939aa3d2477773ea63d',
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/finder',
             'aliases' => array(),
@@ -1000,7 +1000,7 @@
         'symfony/html-sanitizer' => array(
             'pretty_version' => '7.3.x-dev',
             'version' => '7.3.9999999.9999999-dev',
-            'reference' => '1d23de45af5e8508441ff5f82bb493e83cdcbba4',
+            'reference' => 'f6bc679b024e30f27e33815930a5b8b304c79813',
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/html-sanitizer',
             'aliases' => array(),
@@ -1009,7 +1009,7 @@
         'symfony/http-foundation' => array(
             'pretty_version' => '7.3.x-dev',
             'version' => '7.3.9999999.9999999-dev',
-            'reference' => '9e485dd3094b0bcf2d9cd9f9b822ef7ebc0e5dbc',
+            'reference' => '9d9d7eff1bf2ac11d2782e18bdf9efc28a3d2c08',
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/http-foundation',
             'aliases' => array(),
@@ -1081,7 +1081,7 @@
         'symfony/polyfill-mbstring' => array(
             'pretty_version' => '1.x-dev',
             'version' => '1.9999999.9999999.9999999-dev',
-            'reference' => '2369cb908b33d7b7518cce042615de430142497f',
+            'reference' => '6d857f4d76bd4b343eac26d6b539585d2bc56493',
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/polyfill-mbstring',
             'aliases' => array(),
@@ -1199,7 +1199,7 @@
         'tijsverkoyen/css-to-inline-styles' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'e2aa8c9ce8efaa9cae73cb77816fa8aacf243090',
+            'reference' => '0d72ac1c00084279c1816675284073c5a337c20d',
             'type' => 'library',
             'install_path' => __DIR__ . '/../tijsverkoyen/css-to-inline-styles',
             'aliases' => array(

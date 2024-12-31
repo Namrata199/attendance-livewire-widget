@@ -49,6 +49,8 @@ abstract class AbstractAsset
 
     /**
      * Namespace of the asset. If none isset the default namespace is assumed.
+     *
+     * @deprecated Use {@see NamedObject::getObjectName()} and {@see OptionallyQualifiedName::getQualifier()} instead.
      */
     protected ?string $_namespace = null;
 
@@ -231,9 +233,18 @@ abstract class AbstractAsset
 
     /**
      * Is this asset in the default namespace?
+     *
+     * @deprecated
      */
     public function isInDefaultNamespace(string $defaultNamespaceName): bool
     {
+        Deprecation::triggerIfCalledFromOutside(
+            'doctrine/dbal',
+            'https://github.com/doctrine/dbal/pull/6664',
+            '%s is deprecated and will be removed in 5.0.',
+            __METHOD__,
+        );
+
         return $this->_namespace === $defaultNamespaceName || $this->_namespace === null;
     }
 
@@ -241,18 +252,37 @@ abstract class AbstractAsset
      * Gets the namespace name of this asset.
      *
      * If NULL is returned this means the default namespace is used.
+     *
+     * @deprecated Use {@see NamedObject::getObjectName()} and {@see OptionallyQualifiedName::getQualifier()} instead.
      */
     public function getNamespaceName(): ?string
     {
+        Deprecation::triggerIfCalledFromOutside(
+            'doctrine/dbal',
+            'https://github.com/doctrine/dbal/pull/6664',
+            '%s is deprecated and will be removed in 5.0. Use NamedObject::getObjectName()'
+                . ' and OptionallyQualifiedName::getQualifier() instead.',
+            __METHOD__,
+        );
+
         return $this->_namespace;
     }
 
     /**
      * The shortest name is stripped of the default namespace. All other
      * namespaced elements are returned as full-qualified names.
+     *
+     * @deprecated Use {@link getName()} instead.
      */
     public function getShortestName(?string $defaultNamespaceName): string
     {
+        Deprecation::triggerIfCalledFromOutside(
+            'doctrine/dbal',
+            'https://github.com/doctrine/dbal/pull/6657',
+            '%s is deprecated and will be removed in 5.0.',
+            __METHOD__,
+        );
+
         $shortestName = $this->getName();
         if ($this->_namespace === $defaultNamespaceName) {
             $shortestName = $this->_name;
@@ -271,9 +301,19 @@ abstract class AbstractAsset
 
     /**
      * Checks if this identifier is quoted.
+     *
+     * @deprecated Parse the name and introspect its identifiers individually using {@see Identifier::isQuoted()}
+     *             instead.
      */
     protected function isIdentifierQuoted(string $identifier): bool
     {
+        Deprecation::triggerIfCalledFromOutside(
+            'doctrine/dbal',
+            'https://github.com/doctrine/dbal/pull/6677',
+            '%s is deprecated and will be removed in 5.0.',
+            __METHOD__,
+        );
+
         return isset($identifier[0]) && ($identifier[0] === '`' || $identifier[0] === '"' || $identifier[0] === '[');
     }
 
@@ -300,9 +340,19 @@ abstract class AbstractAsset
     /**
      * Gets the quoted representation of this asset but only if it was defined with one. Otherwise
      * return the plain unquoted value as inserted.
+     *
+     * @deprecated Use {@see NamedObject::getObjectName()} or {@see OptionallyQualifiedName::getObjectName()} followed
+     * by {@see Name::toSQL()} instead.
      */
     public function getQuotedName(AbstractPlatform $platform): string
     {
+        Deprecation::triggerIfCalledFromOutside(
+            'doctrine/dbal',
+            'https://github.com/doctrine/dbal/pull/6674',
+            '%s is deprecated and will be removed in 5.0.',
+            __METHOD__,
+        );
+
         $keywords = $platform->getReservedKeywordsList();
         $parts    = $normalizedParts = [];
 
