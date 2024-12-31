@@ -9,7 +9,7 @@ export default {
         './resources/**/*.js',
         './resources/**/*.vue',
         './packages/namratalohani/attendance-livewire-widget/resources/views/filament/widgets/**/*.blade.php',
-        './src/**/*.php',  
+        './src/**/*.php',   
     ],
     theme: {
         extend: {
