@@ -24,6 +24,7 @@ class AttendanceLivewireWidgetServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'/../resources/css/app.css' => public_path('vendor/attendance-widget/css/app.css'),
         ], 'attendance-assets');
+
         
         $this->publishes([
             __DIR__.'/../resources/css/filament/admin/theme.css' => public_path('vendor/attendance-livewire-widget/filament/admin/theme.css'),
