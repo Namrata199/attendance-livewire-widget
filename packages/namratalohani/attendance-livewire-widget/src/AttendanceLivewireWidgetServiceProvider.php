@@ -24,10 +24,11 @@ class AttendanceLivewireWidgetServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'/../resources/css/app.css' => public_path('vendor/attendance-widget/css/app.css'),
         ], 'attendance-assets');
-
+        
         $this->publishes([
-            __DIR__.'/../filament/admin/theme.css' => public_path('vendor/attendance-livewire-widget/filament/admin/theme.css'),
+            __DIR__.'/../resources/css/filament/admin/theme.css' => public_path('vendor/attendance-livewire-widget/filament/admin/theme.css'),
         ], 'attendance-livewire-widget-assets');
+        
 
         // Publish migrations.
         $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
@@ -39,7 +40,7 @@ class AttendanceLivewireWidgetServiceProvider extends ServiceProvider
         Filament::serving(function () {
             Filament::registerPanel(
                 Panel::make()
-                    ->viteTheme('packages.namratalohani.attendance-livewire-widget.resources/css/filament/admin/theme.css')
+                    ->viteTheme('resources/css/filament/admin/theme.css')
                     ->id('attendance')
                     ->path('admin')
                     ->widgets([

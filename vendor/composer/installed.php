@@ -3,7 +3,7 @@
         'name' => 'namratalohani/attendance-livewire-widget',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'fc0da3cbac9c9d53b1449cb6c847839107112bcc',
+        'reference' => 'd604265be3ccd91abc4b0a6e8db069d894b80b15',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -65,9 +65,9 @@
             'dev_requirement' => false,
         ),
         'danharrin/livewire-rate-limiting' => array(
-            'pretty_version' => 'v1.3.1',
-            'version' => '1.3.1.0',
-            'reference' => '1a1b299e20de61f88ed6e94ea0bbcfc33aab1ddb',
+            'pretty_version' => 'v2.0.0',
+            'version' => '2.0.0.0',
+            'reference' => '0d9c1890174b3d1857dba6ce76de7c178fe20283',
             'type' => 'library',
             'install_path' => __DIR__ . '/../danharrin/livewire-rate-limiting',
             'aliases' => array(),
@@ -143,7 +143,7 @@
         'filament/actions' => array(
             'pretty_version' => '3.x-dev',
             'version' => '3.9999999.9999999.9999999-dev',
-            'reference' => '8d9ceaf392eeff55fd335f5169d14f84af8c325e',
+            'reference' => '887b9e5552658a37098e7a279196a4d188d94f50',
             'type' => 'library',
             'install_path' => __DIR__ . '/../filament/actions',
             'aliases' => array(),
@@ -152,7 +152,7 @@
         'filament/filament' => array(
             'pretty_version' => '3.x-dev',
             'version' => '3.9999999.9999999.9999999-dev',
-            'reference' => '21febddcc6720b250b41386805a8dbd1deef2c56',
+            'reference' => '54fcc0b883cc6622d1d9322d28c823ba6172f9ef',
             'type' => 'library',
             'install_path' => __DIR__ . '/../filament/filament',
             'aliases' => array(),
@@ -161,7 +161,7 @@
         'filament/forms' => array(
             'pretty_version' => '3.x-dev',
             'version' => '3.9999999.9999999.9999999-dev',
-            'reference' => '72429b0df9c3d123273dd51ba62b764e2114697c',
+            'reference' => '4abbf867f060483699f3cb8e1c1c8f4469b7980f',
             'type' => 'library',
             'install_path' => __DIR__ . '/../filament/forms',
             'aliases' => array(),
@@ -170,7 +170,7 @@
         'filament/infolists' => array(
             'pretty_version' => '3.x-dev',
             'version' => '3.9999999.9999999.9999999-dev',
-            'reference' => '15c200a3172b88a6247ff4b7230f69982d848194',
+            'reference' => '8c0344fc603085da8f385ed6a022aacbe3aa49fb',
             'type' => 'library',
             'install_path' => __DIR__ . '/../filament/infolists',
             'aliases' => array(),
@@ -188,7 +188,7 @@
         'filament/support' => array(
             'pretty_version' => '3.x-dev',
             'version' => '3.9999999.9999999.9999999-dev',
-            'reference' => 'ddc16d8da50d73f7300671b70c9dcb942d845d9d',
+            'reference' => '0bd91d5b937b0ae50394a976ba5fed9506581943',
             'type' => 'library',
             'install_path' => __DIR__ . '/../filament/support',
             'aliases' => array(),
@@ -197,7 +197,7 @@
         'filament/tables' => array(
             'pretty_version' => '3.x-dev',
             'version' => '3.9999999.9999999.9999999-dev',
-            'reference' => '224aea12a4a4cfcd158b53df94cdd190f8226cac',
+            'reference' => 'e34f63f89ef672f8e810c2e181665d718e84ff37',
             'type' => 'library',
             'install_path' => __DIR__ . '/../filament/tables',
             'aliases' => array(),
@@ -630,7 +630,7 @@
         'namratalohani/attendance-livewire-widget' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'fc0da3cbac9c9d53b1449cb6c847839107112bcc',
+            'reference' => 'd604265be3ccd91abc4b0a6e8db069d894b80b15',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

@@ -13,23 +13,6 @@ export default {
     ],
     theme: {
         extend: {
-            fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
-            },
-            colors: {
-                green: {
-                    500: '#22c55e',
-                    600: '#16a34a',
-                },
-                red: {
-                    500: '#ef4444',
-                    600: '#dc2626',
-                },
-                blue: {
-                    100: '#dbeafe',
-                    900: '#1e3a8a',
-                },
-            },
         },
     },
     plugins: [],
